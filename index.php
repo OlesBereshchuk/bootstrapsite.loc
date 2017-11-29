@@ -24,7 +24,7 @@
     <div class="div">
         <?php
             date_default_timezone_set('europe/kiev');
-            $time = time()/2629743;
+            $time = time();
             $timer = time() + ( 45 * 60 );
             $nextWeek = date('H:i:s');
             $date_time_array = getdate();
